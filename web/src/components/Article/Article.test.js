@@ -9,6 +9,7 @@ const ARTICLE = {
   createdAt: new Date().toISOString(),
 }
 
+// TEST
 describe('Article', () => {
   it('renders a blog post', () => {
     render(<Article article={ARTICLE} />)
